@@ -28,7 +28,7 @@ jobs:
 
 
     - name: Install project dependencies
-      run: npm ci
+      run: npm i
 
     - name: Run Puppeteer script
       env:
