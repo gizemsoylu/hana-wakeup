@@ -2,8 +2,8 @@ name: Start HANA Instance via Puppeteer
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # UTC 07:00 = Türkiye saatiyle 09:00
-  workflow_dispatch:     # Elle tetiklemek için de izin verir
+    - cron: '0 7 * * *'  
+  workflow_dispatch:     
 
 jobs:
   puppeteer:
