@@ -1,0 +1,22 @@
+{
+  "name": "hana-wakeup",
+  "version": "1.0.0",
+  "description": "Automates SAP HANA instance startup via Puppeteer",
+  "main": "start-hana.ts",
+  "scripts": {
+    "start": "ts-node src/start-hana.ts"
+  },
+  "keywords": ["hana", "puppeteer", "automation"],
+  "author": "gizemsoylutr",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "puppeteer": "^24.15.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "ts-node": "^10.9.1"
+  }
+}
